@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #222831;
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffd369;
+  font-weight: 700;
+}
+
+a {
+  color: #00adb5;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.reveal section {
+  padding: 2em 3em;
+  border-radius: 12px;
+  background: rgba(34, 40, 49, 0.95);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.reveal .slide-number {
+  color: #ffd369;
+}
+
+.reveal .toc {
+  background: #393e46;
+  border: 1px solid #00adb5;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 2em;
+  color: #f8f9fa;
+}
+
+pre, code {
+  background: #393e46;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 1em;
+  color: #ffd369;
+}
+
+/* Personaliza más estilos aquí si lo deseas */
